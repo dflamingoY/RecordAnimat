@@ -1,2 +1,3 @@
+include ':Hegui2.0-master'
 rootProject.name = "WeCahtWave"
 include ':app'

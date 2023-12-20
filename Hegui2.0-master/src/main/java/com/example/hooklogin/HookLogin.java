@@ -23,7 +23,7 @@ public class HookLogin implements IXposedHookLoadPackage {
         /**
          * 此处绑定需要判断的包名
          */
-        if (!"xx.xx.xx".equals(lpparam.packageName)) {
+        if (!"".equals(lpparam.packageName)) {
             return;
         }
 
